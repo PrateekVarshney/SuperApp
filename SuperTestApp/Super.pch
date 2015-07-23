@@ -1,0 +1,23 @@
+//
+//  Super.pch
+//  SuperTestApp
+//
+//  Created by Prateek Varshney on 22/07/15.
+//  Copyright (c) 2015 PrateekVarshney. All rights reserved.
+//
+
+#ifndef SuperTestApp_Super_pch
+#define SuperTestApp_Super_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Support.h"
+#import <CoreData/CoreData.h>
+#import "CoreDataManager.h"
+#import "AppDelegate.h"
+#import "Constants.h"
+#import "UIView+Genie.h"
+#import <QuartzCore/QuartzCore.h>
+
+#endif

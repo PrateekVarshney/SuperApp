@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BookMarks" syncable="YES">
+        <attribute name="shirtName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trouserName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Shirts" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Trousers" syncable="YES">
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BookMarks" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Shirts" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Trousers" positionX="-54" positionY="-9" width="128" height="75"/>
+    </elements>
+</model>
