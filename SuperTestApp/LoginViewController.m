@@ -104,7 +104,7 @@
                  // store user information in User model object
                  NSString *facebookId = [user objectForKey:@"id"];
                  
-                 NSLog(@"User Name : %@ %@",user.first_name,user.last_name);
+                 NSLog(@"User Name : %@",user.name);
                  NSLog(@"User Pic : %@",[[NSString alloc] initWithFormat: @"http://graph.facebook.com/%@/picture?type=large", facebookId]);
                  
                  // redirect to home view controller after getting user details
